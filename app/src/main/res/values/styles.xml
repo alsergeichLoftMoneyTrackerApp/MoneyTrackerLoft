@@ -5,4 +5,17 @@
         <!-- Customize your theme here. -->
     </style>
 
+    <style name="Container">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:gravity">center_horizontal</item>
+
+    </style>
+
+    <style name="Container.Dark">
+        <item name="android:orientation">match_parent</item>
+
+        and
+    </style>
+
 </resources>
