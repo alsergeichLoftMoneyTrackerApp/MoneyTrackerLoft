@@ -29,11 +29,11 @@ public class MainActivity extends ActionBarActivity {
     }
 
     private List<Transaction> getDataList() {
-        data.add(new Transaction("Telephone", "2000"));
-        data.add(new Transaction("Visky", "1000"));
-        data.add(new Transaction("Coffy", "800"));
-        data.add(new Transaction("Tea", "300"));
-        data.add(new Transaction("Bred", "20"));
+        data.add(new Transaction("Telephone", "2000", now));
+        data.add(new Transaction("Visky", "1000", 04.05 .2015));
+        data.add(new Transaction("Coffy", "800", 04.05 .2015));
+        data.add(new Transaction("Tea", "300", 04.05 .2015));
+        data.add(new Transaction("Bred", "20", 04.05 .2015));
 
 
         return data;

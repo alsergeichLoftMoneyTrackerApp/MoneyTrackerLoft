@@ -34,9 +34,11 @@ public class TransactionAdapter extends ArrayAdapter<Transaction> {
 
         TextView tvName = (TextView) convertView.findViewById(R.id.name);
         TextView tvSum = (TextView) convertView.findViewById(R.id.sum);
+        TextView tvData_d = (TextView) convertView.findViewById(R.id.data_d);
 
         tvName.setText(transaction.title);
         tvSum.setText(transaction.sum);
+        tvData_d.setText(transaction.data_d);
 
         return convertView;
     }
