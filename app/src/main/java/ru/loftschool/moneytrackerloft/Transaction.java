@@ -10,9 +10,9 @@ import java.util.Date;
 public class Transaction {
     public String title;
     public String sum;
-    public Date data_d;
+    public String data_d;
 
-    public Transaction(String title, String sum, Date data_d) {
+    public Transaction(String title, String sum, String data_d) {
         this.title = title;
         this.sum = sum;
         this.data_d = data_d;
