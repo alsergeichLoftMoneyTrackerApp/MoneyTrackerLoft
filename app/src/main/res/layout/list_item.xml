@@ -20,7 +20,7 @@
             android:textSize="16sp" />
 
         <TextView
-            android:id="@+id/date_d"
+            android:id="@+id/data_d"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_alignParentLeft="true"
