@@ -14,10 +14,9 @@
             android:layout_height="match_parent"
             android:layout_alignParentLeft="true"
             android:layout_alignParentStart="true"
-            android:layout_marginLeft="10dp"
+            android:layout_marginLeft="@dimen/activity_margin_left"
             android:text="Название"
-            android:textColor="#7F7F7F"
-            android:textSize="16sp" />
+            android:textSize="@dimen/activity_horizontal_margin" />
 
         <TextView
             android:id="@+id/data_d"
@@ -25,10 +24,10 @@
             android:layout_height="wrap_content"
             android:layout_alignParentLeft="true"
             android:layout_alignParentStart="true"
-            android:layout_marginLeft="10dp"
+            android:layout_marginLeft="@dimen/activity_margin_left"
             android:text="Дата"
-            android:textColor="#7F7F7F"
-            android:textSize="16sp" />
+            android:textColor="@color/color_act"
+            android:textSize="@dimen/activity_horizontal_margin" />
 
     </LinearLayout>
 
@@ -37,10 +36,10 @@
         android:layout_width="wrap_content"
         android:layout_height="match_parent"
         android:layout_alignParentRight="true"
-        android:layout_marginRight="10dp"
-        android:layout_marginTop="10dp"
+        android:layout_marginRight="@dimen/activity_margin_right"
+        android:layout_marginTop="@dimen/activity_margin_top"
         android:text="Сумма"
-        android:textColor="#7F7F7F"
-        android:textSize="16dp" />
+        android:textColor="@color/color_act"
+        android:textSize="@dimen/activity_horizontal_margin" />
 
 </RelativeLayout>

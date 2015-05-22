@@ -21,9 +21,8 @@ public class MainActivity extends ActionBarActivity {
     private TransactionAdapter transactionAdapter;
     List<Transaction> data = new ArrayList<>();
 
-    public MainActivity() {
-
-    }
+    // public MainActivity() {
+//    }
 
 
     @Override
@@ -38,11 +37,11 @@ public class MainActivity extends ActionBarActivity {
     }
 
 
-    private String date_format = "dd-MM-yyyy";
+    private String dateFormat = "dd-MM-yyyy";
 
     private List<Transaction> getTransactions() {
 
-        DateFormat df = new SimpleDateFormat(date_format, new Locale("ru"));
+        DateFormat df = new SimpleDateFormat(dateFormat, new Locale("ru"));
         Date now_calendar = Calendar.getInstance().getTime();
         String now = df.format(now_calendar);
         data.add(new Transaction("Huawei", "9800", now));
