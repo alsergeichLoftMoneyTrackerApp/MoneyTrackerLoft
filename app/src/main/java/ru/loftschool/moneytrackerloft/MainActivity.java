@@ -21,9 +21,6 @@ public class MainActivity extends ActionBarActivity {
     private TransactionAdapter transactionAdapter;
     List<Transaction> data = new ArrayList<>();
 
-    // public MainActivity() {
-//    }
-
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

@@ -10,12 +10,12 @@ import java.util.Date;
 public class Transaction {
     public String title;
     public String sum;
-    public String data_d;
+    public String data;
 
-    public Transaction(String title, String sum, String data_d) {
+
+    public Transaction(String title, String sum, String data) {
         this.title = title;
         this.sum = sum;
-        this.data_d = data_d;
-
+        this.data = data;
     }
 }
