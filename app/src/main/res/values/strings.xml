@@ -3,4 +3,8 @@
 
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
+    <string name="loftblog_title">loftblog</string>
+    <string name="name">Название</string>
+    <string name="date">Дата</string>
+    <string name="sum">Сумма</string>
 </resources>
