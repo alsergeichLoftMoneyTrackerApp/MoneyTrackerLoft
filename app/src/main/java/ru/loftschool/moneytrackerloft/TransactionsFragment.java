@@ -25,9 +25,6 @@ public class TransactionsFragment extends Fragment {
     private TransactionAdapter transactionAdapter;
     List<Transaction> data = new ArrayList<>();
 
-    void setParametr(int param) {
-
-    }
 
     @Nullable
     @Override
