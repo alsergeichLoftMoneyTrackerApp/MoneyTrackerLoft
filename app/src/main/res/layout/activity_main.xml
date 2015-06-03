@@ -2,20 +2,11 @@
 
     style="@style/Container.Background">
 
-    <LinearLayout
+    <fragment
+        class="ru.loftschool.moneytrackerloft.TransactionsFragment"
     android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@color/color_act">
+        android:id="@+id/transactions_fragment" />
 
-
-    <ListView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:id="@+id/listview"
-        android:divider="@android:color/transparent"
-        android:dividerHeight="@dimen/dividerHight">
-
-    </ListView>
-    </LinearLayout>
 
 </RelativeLayout>
