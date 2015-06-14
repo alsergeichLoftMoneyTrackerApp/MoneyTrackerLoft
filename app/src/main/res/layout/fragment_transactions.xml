@@ -6,10 +6,10 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@color/color_act">
+        android:background="@color/background">
 
 
-        <ListView
+    <ListView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:id="@+id/listview"
